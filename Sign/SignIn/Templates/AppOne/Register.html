@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{%extends 'AppOne/Base.html'%}
+{%load static%}
+
+{%block body_block%}
+<h1>Welcome to Register Page</h1>
+{%if registered%}
+<h2>Thank You!!</h2>
+{%else%}
+<h1>Register Here Now!!</h1>
+<h3>Fill the form</h3>
+<form method="POST" enctype="multipart/form-data">
+    {%csrf_token%}
+    {{reg.as_p}}
+    {{profile_form.as_p}}
+    <input type="submit" value="Register">
+</form>
+{%endif%}
+{%endblock%}

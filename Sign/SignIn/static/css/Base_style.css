@@ -1,0 +1,65 @@
+body{
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+    background-color:rgb(65, 65, 65);
+    position: relative;
+}
+.nvbar li{
+    display: inline;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+}
+.bar{
+    padding: 0px 0px 0px 0px;
+    border-radius: 7px;
+    background-color: gray;
+}
+.nvbar{
+    padding:1em 1em 8em 1em;
+    margin:auto;
+    background:black;
+    height: 100px;
+}
+.nvbar a{
+    text-decoration: none;
+    vertical-align: auto;
+    margin-right: 3em;
+    float: right;
+    font-size: x-large;
+
+}
+
+img{
+    float: left;
+    height: 13%;
+    width: 13%;
+    border: 1px solid gainsboro;
+    padding:1.7em 1em 1.7em 1em;
+    border-radius: 50%;
+    background:purple;
+}
+
+.jmbtrn{
+    padding:1em 1em 1em 1em;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 700px;
+    height: 700px;
+    background: ghostwhite;
+}
+
+.container{
+    padding: 1em 3em 1em 3em;
+    margin: auto;
+    border:2px solid white;
+    border-radius: 8px;
+    height: 500px;
+    background: gainsboro;
+    font-size: large;
+    color: purple;
+}
+
+.container h1{
+    font-family: 'Pacifico', cursive;
+}

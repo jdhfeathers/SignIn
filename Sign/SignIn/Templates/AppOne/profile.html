@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends 'AppOne/Base.html'%}
+{%load static%}
+
+{%block body_block%}
+    <h1>Profile</h1>
+    <p>Hi there</p>
+    <img src="{{UserProfile.PicturePics.picture.url}}" alt='Profile'>
+{%endblock%}
